@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>playbutton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="36" cy="36" r="36"></circle>
+        <filter x="-72.2%" y="-61.1%" width="244.4%" height="244.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="12" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.149598053 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="playbutton" transform="translate(35.000000, 27.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#37D46E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke-opacity="0.123046875" stroke="#37D46E" stroke-width="12" cx="36" cy="36" r="42"></circle>
+            </g>
+            <path d="M32.073751,23.9560234 L48.3484925,34.312677 C49.2803752,34.9056933 49.5550808,36.1418682 48.9620645,37.073751 C48.8049071,37.3207126 48.5954541,37.5301656 48.3484925,37.687323 L32.073751,48.0439766 C31.1418682,48.6369929 29.9056933,48.3622874 29.312677,47.4304047 C29.1084667,47.1095028 29,46.7370217 29,46.3566537 L29,25.6433463 C29,24.5387768 29.8954305,23.6433463 31,23.6433463 C31.380368,23.6433463 31.7528491,23.7518131 32.073751,23.9560234 Z" id="Rectangle" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

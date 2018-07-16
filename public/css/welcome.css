@@ -1,0 +1,196 @@
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width:10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: orange;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.copyright {
+    background-color: #1a252f;
+}
+
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(33,37,41,.1);
+        background-color: #00609a !important;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link {
+        color: #ddd !important;
+    }
+
+    a.nav-link.js-scroll-trigger {
+        color: #ddd !important;
+    }
+
+    a.nav-link.js-scroll-trigger:hover {
+        color: white !important;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: white !important;
+    }
+
+    li.nav-item.home {
+        display: block !important;
+    }
+}
+
+li.nav-item.home {
+    display: none;
+}
+
+header.masthead.text-center.text-white.d-flex {
+    position: relative;
+}
+
+header.masthead.text-center.text-white.d-flex::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #00609aad;
+}
+
+.navbar-brand.js-scroll-trigger .logo {
+    width:auto;
+    height: 100px;
+}
+
+header .social-media {
+    position: absolute;
+    left:0px;
+    bottom: -10px;
+}
+
+header .social-media .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+header .social-media .fa:hover {
+      opacity: 0.7;
+  }
+
+  nav ul.navbar-nav.ml-auto li.nav-item {
+      position: relative;
+  }
+
+nav ul.navbar-nav.ml-auto li.nav-item a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width:0;
+    height: 0;
+    border: 8px solid transparent;
+    margin-top: 10px;
+    transition-property: border-left-color;
+    transition-duration: 500ms;
+    margin-right: 12px;
+}
+
+.parallax {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section.info-area {
+    background-image:url(../img/lamp.jpg);
+}
+
+#about {
+    background-color: #ffedcd!important;
+    color: #333 !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link {
+    text-transform: none !important;
+}
+
+.social-media .logo {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-image:url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#about {
+    background-image: url(../img/circuit.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#grup-sirketleri {
+    background-color: #fafafa;
+    position: relative;
+    padding: 20px;
+}
+
+#grup-sirketleri .logo-holder {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 160px;
+}
+
+#grup-sirketleri .logo-holder .logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+#grup-sirketleri .logo-holder::-webkit-scrollbar {
+    background-color: transparent;
+    height: 10px;
+}
+
+#grup-sirketleri .logo-holder::-webkit-scrollbar-thumb {
+    background-color: orange;
+}
+
+#grup-sirketleri .effect {
+    background: linear-gradient(to right,#fafafa,#fafafa,#fafafadb,#fafafa00);
+    height: 100%;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.effect.right {
+    right: 0;
+    left: unset !important;
+    background: linear-gradient(to left,#fafafa,#fafafa,#fafafadb,#fafafa00) !important;
+}
