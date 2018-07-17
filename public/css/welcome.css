@@ -214,3 +214,34 @@ footer .social-holder a {
 .hizmetler .fa-4x {
     font-size: 7em !important;
 }
+
+.jssorb064 .iav .b {
+    fill: #02a0e9 !important;
+    stroke: #03a9f4 !important;
+}
+header .play {
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 142px;
+    height: 142px;
+    z-index: 1;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
+.hizmetler ul.liste {
+    list-style-type: none;
+    font-family: Raleway;
+    
+}
+
+.hizmetler ul.liste li {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.footer-copyright {
+    font-family: "Open Sans";
+}

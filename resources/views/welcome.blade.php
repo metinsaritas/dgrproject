@@ -76,7 +76,6 @@
         </div>
     </nav>
 
-
     <header>
     
     <div style="position: relative;">
@@ -101,7 +100,7 @@
                     </div>
                     <a href="#" data-play="53" data-rollback="48" style="display:block; position:absolute;top:260px;left:302px;width:220px;height:60px;border-radius:7px;background-clip:padding-box;">
                         <div>
-                            <img class="play" src="img/play.png" style="width:142px;height:142px;"/>
+                            <div class="play" data-toggle="modal" data-target="#exampleModal"></div>
                         </div>
                     </a>
                 </div>
@@ -193,8 +192,7 @@
             <h2 class="section-heading"><b>DGR</b> Hakkında</h2>
             <hr class="my-4">
             <p class="mb-4" style="font-family: Raleway;">
-                    DGR PROJECT 19 yıllık bir tecrübe ve birikimin sonucu olarak 2013 yılında kurulmuş olup çeşitli sektör ve ülkelerde hizmet vermektedir. DGR PORJECT projelerinde uzman kadrosu, global iş ortakları ve teknik deneyimi ile müşterilerin ihtiyaçlarına en uygun ve hızlı çözümü sunmaktadır. DGR PROJECT olarak Türkiye, Azerbaycan, Ukrayna ve Almanya olmak üzere bu ülkelerde de hizmet vermektedir.
-            </p>
+                    DGR PROJECT 19 yıllık bir tecrübe ve birikimin sonucu olarak 2013 yılında kurulmuş olup<br> çeşitli sektör ve ülkelerde hizmet vermektedir. DGR PORJECT projelerinde uzman kadrosu, global iş ortakları ve teknik deneyimi ile müşterilerin ihtiyaçlarına en uygun ve hızlı çözümü sunmaktadır. DGR PROJECT olarak Türkiye, Azerbaycan, Ukrayna ve Almanya <br>olmak üzere bu ülkelerde de hizmet vermektedir.</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" style="text-transform: unset !important;">Hizmetlerimiz</a>
             </div>
         </div>
@@ -216,21 +214,43 @@
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons"></i>
                 <h3 class="mb-3">Bilişim Sistemleri</h3>
-                <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p class="text-muted mb-0">
+                    <ul class="liste">
+                        <li>DGR PROJECT olarak her şirketin ihtiyaçlarının farklı olduğunu ve herhangi bir hizmetin buna göre şekillendirilmesini sağlamaktadır. </li>
+                        <li>Standart IT hizmetlerinin şirket ihtiyaçlarına cevap vermediği durumlarda DGR PROJECT olarak problemli ve riskli yapıları birebir ve uzman ekibiyle sağlıklı ve işleyen profesyonel yapılar haline getirmeye odaklanmıştır.</li>
+                        <li>Bu modelle tamamen şirketlerin IT altyapılarının iyileştirilmesi ve profesyonel IT yapıları haline getirmesi ile IT yönetimine farklı bir bakış açısı getirmiştir.</li>
+                    </ul>
+                </p>
             </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-bolt text-primary mb-3 sr-icons"></i>
                 <h3 class="mb-3">Enerji Sistemleri</h3>
-                <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p class="text-muted mb-0">
+                    <ul class="liste">
+                        <li>Enerji miktarının, teknolojik uygulamalar veya teknik olmayan (daha iyi organizasyon ve yönetim, davranış değişiklikleri gibi) önlemlerle azaltıyor ekonomiye katkı sağlıyoruz. </li>
+                        <li>Dünyanın en gelişmiş birleşik ısı ve güç üretim teknolojisi olan Kojenerasyon, ısı ve elektriğin birlikte üretilebilmesi sayesinde yüksek verimi ve CO2 salınımını azaltmasıyla bir temiz enerji teknolojisidir.</li>
+                        <li>Firmaların yüksek atık problemlerini emisyon ve atık olmadan etkili ucuz bir şekilde çözmektedir.</li>
+                        <li>Yaptığınız gibi atıkları toplayın. Tek akış! Neden? Çünkü ürünlerin çoğu hidrokarbon bazlıdır.</li>
+                    </ul>
+                </p>
             </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons"></i>
                 <h3 class="mb-3">Otomasyon Sistemleri</h3>
-                <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p class="text-muted mb-0">
+                    <ul class="liste">
+                        <li>İnsanların daha rahat, güvenli ve verimli calışmalarını sağlayan otomasyon sistemleri tasarlıyor, kuruyor ve yönetiyoruz.</li>
+                        <li>Şimdiye kadar atık toplama sabit sistemlerle manuel olarak planlama ve toplama takvimine uygun yapılmaktadır. Konteynerler bir dizi programla toplanır.</li>
+                        <li>Şehrin nüfusu arttıkça enerji, su, sağlık, barınma, ulaşım, haberleşme, güvenlik gibi yaşamsal ihtiyaçların artması; bu ihtiyaçları karşılayan kaynakların daha verimli kullanılması için akılcı stratejiler geliştirmeyi zorunlu kılmaktadır.</li>
+                    </ul>
+                </p>
             </div>
             </div>
         </div>
@@ -239,7 +259,11 @@
 
     <section class="bg-dark text-white info-area parallax">
         <div class="container text-center">
-        <h2 class="mb-4"></h2>
+                <h2 class="mb-4" style="
+                font-family: Raleway;
+                font-size: 50px;
+                text-shadow: 2px 3px 7px #333;
+                                    "><b>DGR</b> İle Tanışın</h2>
         </div>
     </section>
 
@@ -269,9 +293,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue-grey lighten-5">
+    <footer class="page-footer font-small blue-grey lighten-5" style="background-color: #f3f1f1; font-family: Raleway;">
 
-    <div style="background-color: #fff4f4">
+    <div style="background-color: #fff4f4;background-image:url(img/social-pattern.png); background-repeat:no-repeat;">
       <div class="container">
 
         <!-- Grid row-->
@@ -279,7 +303,7 @@
 
           <!-- Grid column -->
           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Sosyal ağlarla bizimle bağlantı kurun!</h6>
+            <h6 class="mb-0" style="font-family: Raleway">Sosyal ağlarla bizimle bağlantı kurun!</h6>
           </div>
           <!-- Grid column -->
 
@@ -370,7 +394,7 @@
           <!-- Links -->
           <h6 class="font-weight-bold">İletişim</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><p>
-            <i class="fa fa-envelope mr-3"></i> info@dgrproject.com</p>
+            <i class="fa fa-envelope mr-3"></i>info@dgrproject.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i><b>Türkiye:</b> 0212 807 01 80<br/>
             <i class="fa fa-phone mr-3"></i><b>Almanya:</b> +49 421 246 777 93<br/>
@@ -390,7 +414,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center text-black-50 py-3">© 2013 - <?php echo(date("Y"));?>
+    <div class="footer-copyright text-center text-black-50 py-3" style="background-color: #f1e2e2;">© 2013 - <?php echo(date("Y"));?>
       <a class="dark-grey-text" href="https://dgrproject.com"> DGRProject</a>
     </div>
     <!-- Copyright -->
@@ -398,6 +422,14 @@
   </footer>
   <!-- Footer -->
 
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="height: 90%; max-width: 960px">
+          <div class="modal-content" style="height: 90%;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IvBfRWO1yXw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                
+          </div>
+        </div>
+      </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
