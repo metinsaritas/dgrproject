@@ -21,7 +21,8 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 992px) {
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33,37,41,.1);
-        background-color: #00609a !important;
+        background-color: #03a9f4 !important;
+        //background: linear-gradient(#0098f5,#0083d2);
     }
 
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link {
@@ -72,7 +73,8 @@ header.masthead.text-center.text-white.d-flex::before {
 header .social-media {
     position: absolute;
     left:0px;
-    bottom: -10px;
+    bottom: 0px;
+    z-index: 3;
 }
 
 header .social-media .fa {
@@ -115,7 +117,7 @@ nav ul.navbar-nav.ml-auto li.nav-item a::after {
 }
 
 section.info-area {
-    background-image:url(../img/lamp.jpg);
+    background-image:url(../img/parallax.png);
 }
 
 #about {
@@ -161,13 +163,18 @@ section.info-area {
 
 #grup-sirketleri .logo-holder .logo {
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
     width: 20%;
     height: 100px;
     box-sizing: border-box;
     display: inline-block;
     margin: 8px 10px;
+}
+
+#grup-sirketleri .logo-holder .logo:hover {
+    opacity: 0.6;
+    transition-property: opacity;
+    transition-duration: 300ms;
 }
 
 #grup-sirketleri .logo-holder::-webkit-scrollbar {
@@ -187,10 +194,23 @@ section.info-area {
     left: 0;
     top: 0;
     z-index: 2;
+    line-height: 120px;
+    font-size: 80px;
+    color: #03a9f4;
+    cursor: pointer;
 }
 
 .effect.right {
     right: 0;
     left: unset !important;
     background: linear-gradient(to left,#fafafa,#fafafa,#fafafadb,#fafafa00) !important;
+    text-align: right;
+}
+
+footer .social-holder a {
+    color: #333 !important;
+}
+
+.hizmetler .fa-4x {
+    font-size: 7em !important;
 }

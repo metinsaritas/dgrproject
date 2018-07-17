@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get("/asd", function () {
-    return "Hellow lan";
-})->name("salla");
+    return "Hellow";
+})->name("isim");
