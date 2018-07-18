@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33,37,41,.1);
         background-color: #03a9f4 !important;
-        //background: linear-gradient(#0098f5,#0083d2);
     }
 
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link {
@@ -44,10 +43,26 @@ body::-webkit-scrollbar-thumb {
     li.nav-item.home {
         display: block !important;
     }
+
+    li.nav-item.home-text {
+        display:none !important;
+    }
+
+    #grup-sirketleri .logo-holder .logo {
+        background-size: auto !important;
+    }
+}
+
+#grup-sirketleri .logo-holder .logo {
+    background-size: contain;
 }
 
 li.nav-item.home {
-    display: none;
+    display:none;
+}
+
+li.nav-item.home-text {
+    display:block;
 }
 
 header.masthead.text-center.text-white.d-flex {
@@ -251,3 +266,13 @@ header .play {
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/*
+bilişim sistemleri yazısı
+
+font-size: 20px;
+    line-height: 30px;
+    left: -200px;
+    top: 20px;
+*/
