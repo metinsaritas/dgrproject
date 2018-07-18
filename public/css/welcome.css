@@ -245,3 +245,9 @@ header .play {
 .footer-copyright {
     font-family: "Open Sans";
 }
+
+.oku {
+    color: #03a9f4;
+    font-weight: bold;
+    cursor: pointer;
+}

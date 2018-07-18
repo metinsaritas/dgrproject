@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <title>DGR Project</title>
 
     <!-- Bootstrap core CSS -->
@@ -46,30 +46,27 @@
                     <i class="fa fa-home" style="font-size:20px;"></i>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-
             <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                      Dropdown link
-                      <i class="fa fa-caret-down"></i>
+                        Hizmetlerimiz
+                        <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Link 1</a>
-                      <a class="dropdown-item" href="#">Link 2</a>
-                      <a class="dropdown-item" href="#">Link 3</a>
+                        <a class="dropdown-item" href="#">Bilişim Sistemleri</a>
+                        <a class="dropdown-item" href="#">Enerji Sistemleri</a>
+                        <a class="dropdown-item" href="#">Otomasyon Sistemleri</a>
                     </div>
-                  </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Üreticilerimiz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">İletişim</a>
+            </li>
+
 
             
         </div>
@@ -90,17 +87,14 @@
                 <img data-u="image" src="img/splash2.png" />
                 <div data-ts="flat" data-p="150" style="position:absolute;top:184px;left:283px;width:800px;height:400px;overflow:hidden;">
                     <div data-u="caption" data-t="0" style="position:absolute;top:54px;left:155px;width:487px;height:28px;font-size:23px;font-weight:500;color:#ffffff;line-height:1;letter-spacing:0.05em;text-align:center;">
-                        <div>The description of the template title</div>
-                    </div>
-                    <div data-u="caption" data-t="1" style="position:absolute;top:214px;left:164px;width:461px;height:28px;font-size:23px;font-weight:500;color:#ffffff;line-height:1;letter-spacing:0.05em;text-align:center;">
-                        <div>Content Describe</div>
+                        <div>En doğru seçim</div>
                     </div>
                     <div data-u="caption" data-t="2" style="position:absolute;top:97px;left:71px;width:658px;height:92px;font-size:73px;font-weight:900;color:#ffffff;line-height:1.1;letter-spacing:0.05em;text-align:center;">
-                        <div>Template Title</div>
+                        <div style="text-shadow: 0px 0px 70px #333;">DGR Project</div>
                     </div>
-                    <a href="#" data-play="53" data-rollback="48" style="display:block; position:absolute;top:260px;left:302px;width:220px;height:60px;border-radius:7px;background-clip:padding-box;">
+                    <a href="#" data-play="53" data-rollback="48" style="display:block; position:absolute;top:190px;left:302px;width:220px;height:60px;border-radius:7px;background-clip:padding-box;">
                         <div>
-                            <div class="play" data-toggle="modal" data-target="#exampleModal"></div>
+                            <div class="play" data-toggle="modal" data-target="#youtubeModal"></div>
                         </div>
                     </a>
                 </div>
@@ -162,6 +156,7 @@
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </div>
     </div>
 </header>
@@ -192,28 +187,40 @@
             <h2 class="section-heading"><b>DGR</b> Hakkında</h2>
             <hr class="my-4">
             <p class="mb-4" style="font-family: Raleway;">
-                    DGR PROJECT 19 yıllık bir tecrübe ve birikimin sonucu olarak 2013 yılında kurulmuş olup<br> çeşitli sektör ve ülkelerde hizmet vermektedir. DGR PORJECT projelerinde uzman kadrosu, global iş ortakları ve teknik deneyimi ile müşterilerin ihtiyaçlarına en uygun ve hızlı çözümü sunmaktadır. DGR PROJECT olarak Türkiye, Azerbaycan, Ukrayna ve Almanya <br>olmak üzere bu ülkelerde de hizmet vermektedir.</p>
+                    DGR PROJECT 19 yıllık bir tecrübe ve birikimin sonucu olarak 2013 yılında kurulmuş olup çeşitli sektör ve ülkelerde hizmet vermektedir. DGR PORJECT projelerinde uzman kadrosu, global iş ortakları ve teknik deneyimi ile müşterilerin ihtiyaçlarına en uygun ve hızlı çözümü sunmaktadır.
+                    <br/><br/>DGR PROJECT olarak Türkiye, Azerbaycan, Ukrayna, Belarus ve Almanya olmak üzere bu ülkelerde de hizmet vermektedir. Akıllı Şehirler, IOT, Danışmanlık Hizmetleri, Dış Kaynak Eleman ihtiyaçları, BT Eğitimleri, BT ve Enerji verimliliği konuları gibi bir çok alanda faaliyet göstermektedir .
+                    <br/><br/>DGR PROJECT, bünyesinde Almanya’da 1, Belarusta 1, Türkiye’de biri Ar-Ge ve diğeri Merkez ofis olmak üzere 4 ofisi ile faaliyet göstermektedir. Bunun yanı sıra Ukrayna,Azerbaycan, Rusya gibi ülkelerde de iş paylaşımlı ofisleri bulunmaktadır        
+            </p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" style="text-transform: unset !important;">Hizmetlerimiz</a>
             </div>
         </div>
         </div>
     </section>
 
-    <section id="services">
+    <section class="bg-dark text-white info-area parallax">
+        <div class="container text-center">
+                <h2 class="mb-4" style="
+                font-family: Raleway;
+                font-size: 50px;
+                text-shadow: 2px 3px 7px #333;"><b>DGR</b> İle Tanışın</h2>
+        </div>
+    </section>
+
+    <section id="services" style="padding: 4em 0;">
         <!--<div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your ss</h2>
-            <hr class="my-4">
+                <h2 class="section-heading">At Your ss</h2>
+                <hr class="my-4">
             </div>
         </div>
-        </div>-->
+    </div>-->
         <div class="container hizmetler">
         <div class="row">
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3">Bilişim Sistemleri</h3>
+                <h3 class="mb-3"><a href="#" style="color:#333;">Bilişim Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
@@ -227,7 +234,7 @@
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-bolt text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3">Enerji Sistemleri</h3>
+                <h3 class="mb-3"><a href="#" style="color:#333;">Enerji Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
@@ -242,7 +249,7 @@
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3">Otomasyon Sistemleri</h3>
+                <h3 class="mb-3"><a href="#" style="color:#333;">Otomasyon Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
@@ -256,42 +263,7 @@
         </div>
         </div>
     </section>
-
-    <section class="bg-dark text-white info-area parallax">
-        <div class="container text-center">
-                <h2 class="mb-4" style="
-                font-family: Raleway;
-                font-size: 50px;
-                text-shadow: 2px 3px 7px #333;
-                                    "><b>DGR</b> İle Tanışın</h2>
-        </div>
-    </section>
-
-
-    <section id="contact">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
-            </div>
-            <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-                <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-            </p>
-            </div>
-        </div>
-        </div>
-    </section>
-
+    
     <!-- Footer -->
     <footer class="page-footer font-small blue-grey lighten-5" style="background-color: #f3f1f1; font-family: Raleway;">
 
@@ -318,13 +290,17 @@
             <a class="tw-ic">
               <a href="#"><i class="fa fa-twitter white-text mr-4"></i></a>
             </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <a href="#"><i class="fa fa-google-plus white-text mr-4"></i></a>
-            </a>
             <!--Linkedin -->
             <a class="li-ic">
               <a href="#"><i class="fa fa-linkedin white-text mr-4"></i></a>
+            </a>
+            <!-- Youtube +-->
+            <a class="yt-ic">
+                    <a href="#"><i class="fa fa-youtube white-text mr-4"></i></a>
+                  </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <a href="#"><i class="fa fa-google-plus white-text mr-4"></i></a>
             </a>
             <!--Instagram-->
             <a class="ins-ic">
@@ -350,10 +326,9 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <h6 class="font-weight-bold">Bülent DOĞRU</h6>
           <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <p>Ülkemizde son yıllarda siyasal, ekonomik, kültürel ve toplumsal açıdan pek çok gelişme ve atılım gerçekleştirildiğini görebiliyoruz. Hemen her alanda birçok değişimin yaşandığı Türkiye, dünyanın lider ülkeleri arasında yer alma hedefiyle yolun...<span class="oku" data-toggle="modal" data-target="#ceoMesajModal"> Devamını oku</span></p>
 
         </div>
         <!-- Grid column -->
@@ -422,14 +397,63 @@
   </footer>
   <!-- Footer -->
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="youtubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document" style="height: 90%; max-width: 960px">
-          <div class="modal-content" style="height: 90%;">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IvBfRWO1yXw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="modal-content" style="height: 90%;overflow: hidden;border-radius: 20px;border:none;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IvBfRWO1yXw?rel=0&fs=0&color=white&controls=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
+
+    <div class="modal fade" id="ceoMesajModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="height: 90%; max-width: 960px">
+            <div class="modal-content" style="border:none;">
+                <div class="modal-header">
+                <h4 class="modal-title">Bülent DOĞRU</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" style="font-family: Raleway;text-align: justify; font-weight:bold;">
+                    <img src="img/ceo.jpg" style="border-radius: 60px 0px 70px 0px; float: left; border: 10px solid #03a9f4; margin: 0px 10px 20px 0px;"/>
+                <p style="text-indent: 50px;">
+                Ülkemizde son yıllarda siyasal, ekonomik, kültürel ve toplumsal açıdan pek çok gelişme ve atılım gerçekleştirildiğini görebiliyoruz. Hemen her alanda birçok değişimin yaşandığı Türkiye, dünyanın lider ülkeleri arasında yer alma hedefiyle yoluna emin adımlarla devam ediyor. Yakın geçmişte ekonomik krizlerle boğuşan ülkemizin, önüne koyduğu bu vizyon ve hedef dahilinde gösterdiği büyüme süreci, genç ve dinamik nüfusun da katkısıyla, yükselerek devam edecektir.
+                </p>
+                <p>Küçük bir Ofis olarak faaliyete başlayan DGR Project, bugün 3 kıtada faaliyet gösteren, sektörde dünyanın en büyük firmaları arasında yer alan bir konuma geldi. Elbette ki bu başarıya ulaşmak kolay iş değil. Asıl zor olan nokta ise; bu başarıyı daim kılmak.
+                </p>        
+                <p>19 yıllık bir geçmişe sahip olan DGR Sirketler Grubu açısından ele aldığımızda; mevcut hedeflerimize paralel, yurt içi ve yurt dışında oldukça verimli ve başarılı bir yıl geçirdiğimizi söyleyebilirim. 2023 yılına kadar, yılında Dış Kaynak Eleman ihtiyaçları, BT Eğitimleri, BT ve Enerji verimliliği ve yazılım çözümleri pazarında Türkiye ve Bölge ülkeler lideri olma hedefimize doğru, sağlam adımlarla, kendimizden emin bir şekilde ilerlemeye devam etmekteyiz.
+                </p>       
+                <p>Hedeflerimize doğru adım adım yürürken; değerlerimizden, ilkelerimizden ve prensiplerimizden de asla ödün vermeyeceğiz. İnsan odaklı, kalite öncelikli misyonumuz doğrultusunda; müşterilerimizle, çalışanlarımızla, paydaşlarımızla güçlü bir bağ kurmaya gayret gösteriyoruz.
+                </p>        
+                <p>Çünkü şunu çok iyi biliyoruz ki, başarıya ulaşmanın asıl sırrı; bizi oluşturan, bizi bir arada tutan, bizi geliştiren, bizi büyüten tüm unsurların memnuniyetini ve gülümsemesini sağlamaktır.
+                </p>        
+                <p>Başarılı ve yetenekli yönetim kadromuzla, donanımlı çalışanlarımızla, müşteri memnuniyeti odaklı hizmet anlayışımızla hedef kitlemize ulaşıp, DGR Project'in kurumsal değerini hep birlikte zirveye taşıyacağımıza inancım tam...</p>
+                </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" style="text-transform: none;" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                </div>    
+                
+            </div>
+        </div>
+    </div>
+
+   
+
+    <script>
+    function initMap () {
+        let uluru = {lat: 40.9868521, lng: 29.1326849};
+        let map = new google.maps.Map(document.getElementById('map'), {
+            center: uluru,
+            zoom: 16
+            });
+        let icon = "/img/favicon.png";
+        let marker = new google.maps.Marker({position: uluru, map: map, icon: icon});
+    }
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQaBpxj1_1noq-Te2jCPoG7SqjBgMd-R4&callback=initMap">
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
