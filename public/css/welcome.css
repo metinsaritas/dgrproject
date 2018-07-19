@@ -51,6 +51,16 @@ body::-webkit-scrollbar-thumb {
     #grup-sirketleri .logo-holder .logo {
         background-size: auto !important;
     }
+
+    .page .title {
+        top: -40px !important;
+        font-size: 28px !important;
+    }
+
+    
+    .page .banner {
+        height: 300px !important;
+    }
 }
 
 #grup-sirketleri .logo-holder .logo {
@@ -276,3 +286,121 @@ font-size: 20px;
     left: -200px;
     top: 20px;
 */
+
+.page .title {
+    position: absolute;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 18px;
+    left: -250px;
+    top: -35px;
+    right: 220px;
+    color: #e7f8ff;
+    text-shadow: -1px 0 #c5b6b6, 0 1px black, 1px 0 #cccaca, 0 -1px #d8c3c3
+}
+
+.container .service-logo {
+    color: #03a9f4;
+    font-size: 4em !important;
+    background-color: white;
+    padding: 30px;
+    width: 2em;
+    height: 2em;
+    line-height: 75px;
+    position: absolute;
+    bottom: -40px;
+    right: 70px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px -20px 70px -10px #03a9f4;
+}
+
+.page .banner {
+    background-size: cover;width:100%;height: 250px; background-repeat:no-repeat;
+    background-position: center;
+    border-radius:0px 0px 0px 160px/100px;
+}
+
+
+.banner .wave {    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-image: url(../img/page/dalga.png);
+}
+
+.container.contact-form {
+    font-family: Raleway;
+    padding: 70px 0px;
+}
+
+
+.container.contact-form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #a08787;
+}
+
+.container.contact-form input {
+    font-size: 20px;
+    font-family: Raleway;
+    border: none;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    padding: 5px 3px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+}
+
+.container.contact-form textarea {
+    font-size: 20px;
+    font-family: Raleway;
+    border: none;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    padding: 5px 3px;
+    display: block;
+    height: 219px;
+    max-height: 219px;
+    min-height: 219px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.container.contact-form .send {    
+    font-size: 20px;
+    font-family: Raleway;
+    padding: 5px 3px;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container.contact-form .bot {
+    border: 2px solid orange;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.container.contact-form .g-recaptcha {
+    overflow: hidden;
+    width: 210px;
+    height: 75px;
+    position: relative;
+    top: -1px;
+}
+
+.contact-message {
+    background: #f3f1f1;
+    font-family: Raleway;
+    font-size: 1rem;
+    padding: 10px 5px;
+}

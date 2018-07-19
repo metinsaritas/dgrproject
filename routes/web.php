@@ -17,19 +17,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/asd", function () {
-    return "Hellow";
-})->name("isim");
-
-
 Route::get("/hizmetler/bilisim-sistemleri", function() {
-    return view("pages.bilisim");
+    return view("hizmetler.bilisim");
 })->name("bilisim");
 
 Route::get("/hizmetler/enerji-sistemleri", function() {
-    return view("pages.enerji");
+    return view("hizmetler.enerji");
 })->name("enerji");
 
 Route::get("/hizmetler/otomasyon-sistemleri", function() {
-    return view("pages.otomasyon");
+    return view("hizmetler.otomasyon");
 })->name("otomasyon");
+
+
+
+Route::get("/iletisim", function() {
+    return view("iletisim");
+})->name("iletisim");
+
+
+Route::get("/hakkimizda", function() {
+    return view("hakkimizda");
+})->name("hakkimizda");
+
+Route::get("/ureticilerimiz", function() {
+    return view("ureticilerimiz");
+})->name("ureticilerimiz");

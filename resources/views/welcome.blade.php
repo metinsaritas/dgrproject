@@ -151,9 +151,9 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-                <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3"><a href="{{ route("bilisim") }}" style="color:#333;">Bilişim Sistemleri</a></h3>
-                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons" style="color: #03a9f4 !important;"></i>
+            <h3 class="mb-3"><a href="{{ route("bilisim") }}" style="color:#03a9f4;">Bilişim Sistemleri</a></h3>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;border-color: #03a9f4;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
                         <li>DGR PROJECT olarak her şirketin ihtiyaçlarının farklı olduğunu ve herhangi bir hizmetin buna göre şekillendirilmesini sağlamaktadır. </li>
@@ -166,7 +166,7 @@
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-bolt text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3"><a href="{{ route("enerji") }}" style="color:#333;">Enerji Sistemleri</a></h3>
+                <h3 class="mb-3"><a href="{{ route("enerji") }}" style="color:orange;">Enerji Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
@@ -180,9 +180,9 @@
             </div>
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-                <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3"><a href="{{ route("otomasyon") }}" style="color:#333;">Otomasyon Sistemleri</a></h3>
-                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons" style="color: red !important;"></i>
+                <h3 class="mb-3"><a href="{{ route("otomasyon") }}" style="color:red;">Otomasyon Sistemleri</a></h3>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; border-color:red;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
                         <li>İnsanların daha rahat, güvenli ve verimli calışmalarını sağlayan otomasyon sistemleri tasarlıyor, kuruyor ve yönetiyoruz.</li>
@@ -196,6 +196,11 @@
         </div>
     </section>
     @include("helper.footer")
+
+    
+
+    <script src="{{ asset('js/jssor.slider-27.4.0.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('js/slidercode.js') }}" type="text/javascript"></script>
     </body>
 
 </html>

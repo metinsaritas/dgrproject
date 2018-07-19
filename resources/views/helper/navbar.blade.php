@@ -32,13 +32,13 @@
                     </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#">Üreticilerimiz</a>
+            <a class="nav-link js-scroll-trigger" href="{{ route('ureticilerimiz') }}">Üreticilerimiz</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#">Hakkımızda</a>
+                <a class="nav-link js-scroll-trigger" href="{{ route('hakkimizda') }}">Hakkımızda</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#">İletişim</a>
+                <a class="nav-link js-scroll-trigger" href="{{ route('iletisim') }}">İletişim</a>
             </li>
 
 

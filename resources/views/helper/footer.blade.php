@@ -162,24 +162,6 @@
     </div>
 </div>
 
-
-
-<script>
-function initMap () {
-    let uluru = {lat: 40.9868521, lng: 29.1326849};
-    let map = new google.maps.Map(document.getElementById('map'), {
-        center: uluru,
-        zoom: 16
-        });
-    let icon = "{{ asset('/img/favicon.png') }}";
-    let marker = new google.maps.Marker({position: uluru, map: map, icon: icon});
-}
-</script>
-
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQaBpxj1_1noq-Te2jCPoG7SqjBgMd-R4&callback=initMap">
-</script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -193,10 +175,3 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQaBpxj1_1noq-Te2jCPoG7Sq
 <script src="{{ asset('js/creative.min.js') }}"></script>
 <script src="{{ asset('js/ekko-lightbox.min.js') }}"></script>
 <script src="{{ asset('js/welcome.js') }}"></script>
-
-<script src="{{ asset('js/jssor.slider-27.4.0.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/slidercode.js') }}" type="text/javascript"></script>
-
-@section("asd")
- Buraya yazi gelecek
-@endsection 
