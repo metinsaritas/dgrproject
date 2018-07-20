@@ -404,3 +404,80 @@ font-size: 20px;
     font-size: 1rem;
     padding: 10px 5px;
 }
+
+.hr {
+    border-bottom: 3px solid orange;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.hr .triangle {
+    width: 0px;
+    border: 20px solid transparent;
+    border-top: 10px solid orange;
+    background: transparent;
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    z-index: 2;
+}
+
+.hr .triangle::after {
+    content: '';
+    width: 0px;
+    border: 13px solid transparent;
+    border-top: 7px solid #fafafa;
+    background: transparent;
+    position: absolute;
+    bottom: -10px;
+    left: -13px;
+    z-index: 2;
+}
+
+.hr span {
+    font-size: 1.2em;
+    font-family: Raleway;
+    color: orange;
+    font-weight: bold;
+}
+
+.container.bilisim .hr {border-bottom-color: #03a9f4;}
+.container.bilisim .hr .triangle, .container.bilisim .hr span{
+    border-top-color: #03a9f4;
+    color: #03a9f4;
+}
+
+.container.enerji .hr {border-bottom-color: orange;}
+.container.enerji .hr .triangle, .container.enerji .hr span{
+    border-top-color: orange;
+    color: orange;
+}
+
+.container.otomasyon .hr {border-bottom-color: red;}
+.container.otomasyon .hr .triangle, .container.otomasyon .hr span{
+    border-top-color: red;
+    color: red;
+}
+
+.container .logo-holder .uretici-logo {
+    background-image:url(../img/ureticiler/bilisim/1.png);
+    width: 150px;
+    height: 90px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 5px 5px 0px;
+    transition-property: filter, opacity;
+    transition-duration: 300ms;
+}
+
+.container .logo-holder .uretici-logo:hover {
+    filter: blur(2px);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container .logo-holder .uretici-logo-holder {
+    padding: 10px 30px 20px 30px;
+    display: inline-block;
+}
