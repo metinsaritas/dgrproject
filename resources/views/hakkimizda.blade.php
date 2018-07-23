@@ -7,5 +7,7 @@
     </div>
 </div>
 @section("icerik")
-Hakkımızda alanı
+<div class="container">
+    Hakkımızda alanı
+</div>
 @endsection
