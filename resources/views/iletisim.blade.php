@@ -1,9 +1,11 @@
 @extends("sayfa")
-<div class="page">
-    <div class="banner" style="background-image:url({{ asset('img/page/iletisim.jpg')}}); border-radius:0px;height:170px !important;"></div>
+<div style="background: #f3f1f1;">
+    <div class="page">
+        <div class="banner" style="background-image:url({{ asset('img/page/iletisim.jpg')}}); border-radius:0px;height:170px !important;"></div>
 
-    <div class="container" style="position: relative;">
-        <span class="title" style="text-align: left; left: 0px;margin-left:10px;"><i class="fa fa-globe"></i> İletişim</span>
+        <div class="container" style="position: relative;">
+            <span class="title" style="text-align: left; left: 0px;margin-left:10px;"><i class="fa fa-globe"></i> İletişim</span>
+        </div>
     </div>
 </div>
 @section("icerik")
@@ -15,7 +17,7 @@
 </div>
 
 <div style="background-color: white;
-background: linear-gradient(to right, white,#f7eaea);">
+background: linear-gradient(to left, white,#f7eaea);">
     <div class="container contact-form">
         <form action="api/message">
                 <div class="row">

@@ -8,7 +8,7 @@
 </div>
 
 @section("icerik")
-<section class="content">
+<section class="content" style="padding: 2rem 0px;">
 <div class="container bilisim">
     <div class="hr">
         <div class="triangle"></div>

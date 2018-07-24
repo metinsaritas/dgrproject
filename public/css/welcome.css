@@ -60,6 +60,11 @@ body::-webkit-scrollbar-thumb {
     
     .page .banner {
         height: 300px !important;
+        border-radius:0px 0px 80px/100px 0px !important;
+    }
+
+    .hakkimizda-menu, .contact-message {
+        border-radius: 0px 0px 240px/150px 0px !important;
     }
 }
 
@@ -278,15 +283,6 @@ header .play {
 }
 
 
-/*
-bilişim sistemleri yazısı
-
-font-size: 20px;
-    line-height: 30px;
-    left: -200px;
-    top: 20px;
-*/
-
 .page .title {
     position: absolute;
     text-align: right;
@@ -318,17 +314,7 @@ font-size: 20px;
 .page .banner {
     background-size: cover;width:100%;height: 250px; background-repeat:no-repeat;
     background-position: center;
-    border-radius:0px 0px 0px 80px/100px;
-}
-
-
-.banner .wave {    
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-image: url(../img/page/dalga.png);
+    border-radius:0px 0px 40px/40px 0px;
 }
 
 .container.contact-form {
@@ -403,6 +389,7 @@ font-size: 20px;
     font-family: Raleway;
     font-size: 1rem;
     padding: 10px 5px;
+    border-radius: 0px;
 }
 
 .hr {
@@ -593,4 +580,22 @@ font-size: 20px;
 
 .container-area .container .tab.active {
     display: block;
+}
+
+.container .icyazi {
+    margin: 50px 0px 50px 0px;
+    font-family: Raleway;
+}
+
+.hakkimizda-menu {
+    background: #f3f1f1;
+    font-family: Raleway;
+    font-size: 1rem;
+    border-radius: 0px;
+    padding: 10px 5px;
+}
+
+.hakkimizda-menu a {
+    color: #9E9E9E;
+    font-weight: bold;
 }
