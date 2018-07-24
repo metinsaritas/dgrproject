@@ -1,4 +1,7 @@
 @extends("sayfa")
+
+@section("title") Hakkımızda | DGR Project @endsection
+
 <div style="background: #f3f1f1;">
 <div class="page">
     <div class="banner" style="background-image:url({{ asset('img/page/hakkimizda.jpg')}}); border-radius:0px;height:170px !important;"></div>

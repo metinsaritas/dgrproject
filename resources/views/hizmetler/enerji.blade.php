@@ -1,4 +1,7 @@
 @extends("sayfa")
+
+@section("title") Enerji Sistemleri | DGR Project @endsection
+
 <div class="page">
     <div class="banner" style="background-image:url({{ asset('img/page/enerji-sistemleri.jpg')}});"></div>
 

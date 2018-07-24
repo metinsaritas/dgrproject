@@ -1,4 +1,7 @@
 @extends("sayfa")
+
+@section("title") Üreticilerimiz | DGR Project @endsection
+
 <div class="page">
     <div class="banner" style="background-image:url({{ asset('img/page/ureticilerimiz.jpg')}}); border-radius:0px;height:170px !important;"></div>
 

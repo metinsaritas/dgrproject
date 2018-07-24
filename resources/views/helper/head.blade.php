@@ -3,7 +3,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}"/>
-<title>DGR Project</title>
+<title>@yield("title", "DGR Project")</title>
 
 <!-- Bootstrap core CSS -->
 <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">

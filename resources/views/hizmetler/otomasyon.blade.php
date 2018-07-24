@@ -1,4 +1,7 @@
 @extends("sayfa")
+
+@section("title") Otomasyon Sistemleri | DGR Project @endsection
+
 <div class="page">
     <div class="banner" style="background-image:url({{ asset('img/page/otomasyon-sistemleri.jpg')}});"></div>
 
