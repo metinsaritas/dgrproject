@@ -599,3 +599,43 @@ header .play {
     color: #9E9E9E;
     font-weight: bold;
 }
+
+.tab[data-name=servis] .title {
+    font-weight: bold;
+    color: #03a9f4;
+}
+
+.tab[data-name=servis] .title i {
+    font-weight: bold;
+}
+
+
+.tab[data-name=servis] span.text {
+    text-indent: 14px;
+    display: block;
+    text-align: justify;
+}
+
+.tab[data-name=servis] .row .col-sm {
+    margin-bottom: 20px;
+}
+
+.tab[data-name=kurumsal] div b {
+    color: #03a9f4;
+}
+
+.tab[data-name=danismanlik] div b {
+    color: #03a9f4;
+}
+
+.tab[data-name=network] div b {
+    color: #03a9f4;
+}
+
+.tab[data-name=network] div ul {
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    list-style-type: none;
+    min-height: 50px;
+}
