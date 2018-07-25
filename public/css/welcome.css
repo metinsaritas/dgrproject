@@ -639,3 +639,8 @@ header .play {
     list-style-type: none;
     min-height: 50px;
 }
+
+.tab[data-name=solar] b, .tab[data-name=kojenerasyon] b, .tab[data-name=ruzgar] b,
+.tab[data-name=karbon] b, .tab[data-name=bio] b {
+    color: #03a9f4;
+}

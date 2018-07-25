@@ -314,10 +314,6 @@
 </div>
 <script src="{{ asset('vendor/jquery/jquery.js')}}"></script>
 <script>
-    $(function() {
-        $("[data-to=network]").click(); //Delete those lines
-    });
-    
     $(document).on("click", ".hizmet-menu .list[data-to]:not(.active)", function() {
         $(".hizmet-menu .list.active[data-to]").removeClass("active");
         $(this).addClass("active");
