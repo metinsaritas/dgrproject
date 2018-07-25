@@ -352,11 +352,6 @@
 </div>
 <script src="{{ asset('vendor/jquery/jquery.js')}}"></script>
 <script>
-
-    $(function() {
-        $("[data-to=bio]").click();
-    })
-
     $(document).on("click", ".hizmet-menu .list[data-to]:not(.active)", function() {
         $(".hizmet-menu .list.active[data-to]").removeClass("active");
         $(this).addClass("active");

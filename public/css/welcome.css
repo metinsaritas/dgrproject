@@ -480,7 +480,7 @@ header .play {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    padding: 0px 0px 120px 0px;
+    padding: 0px 0px 170px 0px;
     cursor: pointer;
 }
 
@@ -642,5 +642,10 @@ header .play {
 
 .tab[data-name=solar] b, .tab[data-name=kojenerasyon] b, .tab[data-name=ruzgar] b,
 .tab[data-name=karbon] b, .tab[data-name=bio] b {
+    color: #03a9f4;
+}
+
+.tab[data-name=atikizleme] b, .tab[data-name=atiktoplama] b, .tab[data-name=aydinlatma] b,
+.tab[data-name=elektrik] b {
     color: #03a9f4;
 }
