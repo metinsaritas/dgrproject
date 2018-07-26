@@ -164,19 +164,207 @@
             </div>
 
             <div data-name="sulama" class="tab">
-                Burası sulama hizmetler kısmı
+                <div class="row">
+                    <div class="col-sm">
+                        <p>
+                            Günümüzde akıllı şehirlerin bir parçası olan Akıllı Sulama Sistemleri ile dünyamızın en büyük problemlerinden birine çözüm sunuyoruz.Suyuetkin kullanabilmek için suyun verimli bir şekilde kullanılabiliyor olması gerekmektedir.
+                        </p>
+                        <p>
+                            Günümüzde park, bahçe, yeşil alan ve refüjlerin sulamasında kullanılan suyun orantısız ve ölçülebilir olmamasından kaynaklı su tüketiminin fazla olması su kaynaklarımızıtüketmemize neden olmaktadır.
+                        </p>
+                        <p>
+                            Akıllı sulama çözümümüzle birlikte toprak nemini toprakta dikili olan bitkinin ihtiyacı doğrultusunda hesaplayarak bu verileri günlük, haftalık ve aylık olarak bölgenin hava durumunu ölçümleyerek toprağın ihtiyacı doğrultusundaotomatikyapan bir sistemdir.
+                        </p>
+                        <p>
+                            Merkezi kontrol ünitemizle sisteme entegre olan sensör ve vanaları uzaktan takip ederek tek bir merkezden yönetmemize olanak tanımaktadır.
+                        </p>
+                    </div>
+
+                    <div class="col-sm">
+                        <img src="{{ asset('img/icerik/sulama1.png') }}"/>
+                    </div>
+                </div>
+                
+                <p>
+                    <b>Akıllı Sulama Sistemi Parçaları</b><br/>
+                    <ul>
+                        <li>Nem Sensörleri</li>
+                        <li>Debi Ölçer</li>
+                        <li>Su Pompası Kontrolöri</li>
+                        <li>Akıllı Vana</li>
+                        <li>Gateway</li>
+                        <li>Secure Wifi A</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <ul style="list-style-type: none;padding-left:0px;">
+                        <li><i class="fa fa-angle-double-right"></i> Akıllı sulama sistemleri, su kaynaklarının etkin ve tasarruflu kullanımı ve kaynakların optimize ve etkin kullanımı için benzersiz bir çözümdür.</li>
+                        <li><i class="fa fa-angle-double-right"></i> Su sıkıntısı yaşayan ülkelerde su tasarrufu ve ekilen bitkilere göre sulama sistemi yapılması sayesinde hem tarım, hem park ve bahçeler hem sudan hem de tarımın daha az kaynak kullanarak gelişmesini sağlar. </li>
+                        <li><i class="fa fa-angle-double-right"></i> Tarım arazilerinin akıllı sulama ile donatıldığında %55, park/bahçe gibi halka açık alanlardaki yerlerin akıllı sulama ile donatılmasında ise %60’a yakın su ve kaynak <i>(elektrik, bitki, çim gibi)</i> tasarrufu sağlayacağı ön görülmektedir. </li>
+                        <li><i class="fa fa-angle-double-right"></i> Sistemin çalışması için kullanılacak enerjinin güneş ışınlarından alınan kaynak ile yapılması halinde ise bu verimlilik ve kaynak kullanımının %75 üzerinde olacağı tahmin edilmektedir.</li>     
+                    </ul>
+                </p>
+
+                <div class="hr" style="text-align:center; border-bottom-color: #03a9f4;">
+                    <span style="font-size:20px; color: #03a9f4;">Su Kaçağı Tespit Sistemi</span>
+                    <div class="triangle" style="margin-left: -20px; left: 50%;border-top-color: #03a9f4;"></div>
+                </div>
+
+                <p>
+                    <div class="row">
+                        <div class="col-sm">Su dağıtım şebekelerinin en büyük problemlerinden biri arızalanan boruların tespitinin zorluğudur. Geleneksel olarak deneme yanılma veya tahmin etme yoluyla arızanın çözümüne ulaşılmaktadır. Bu süreç de arızadan etkilenen bölgenin uzun süre susuz kalma sonucunu doğurmaktadır. Aynı zamanda arıza tespiti için harcanan zaman,iş ve para gücü ülkemiz kaynaklarından her geçen gün eksilmektedir. Bunun önüne geçmek için akıllı sistem entegrasyonlarından yararlanmak kaçınılmaz olmuştur.</div>
+                        <div class="col-sm">
+                            <img src="{{ asset('img/icerik/sulama2.png')}}"/>
+                        </div>
+                    </div>
+                    
+                </p>
+                
+                <p>
+                    Akıllı su kaçağı tespit sistemleri kısa sürede arıza tespiti için etkin bir çözümdür. Böylece arızadan etkilenen hat kolay bir şekilde tespit edilip revize etme işlemleri hemen başlayabilmektedir. Bunun sonucu olarak da arızadan etkilenen bölge uzun süreli kesintilere maruz kalmamaktadır. Arızanın kısa sürede ve pratik bir şekilde bulunmasıyla ise iş gücü, zaman ve maddi kayıplar minimuma indirilmektedir.
+                </p>
+                
+                <div style="text-align:center;">
+                    <img src="{{ asset('img/icerik/sulama3.png')}}"/>
+                </div>
+
             </div>
 
             <div data-name="saglik" class="tab">
-                Burası saglik hizmetler kısmı
+                <div class="hr" style="text-align:center; border-bottom-color: #03a9f4;">
+                    <span style="font-size:20px; color: #03a9f4;">Mobil Sağlık Çözümleri</span>
+                    <div class="triangle" style="margin-left: -20px; left: 50%;border-top-color: #03a9f4;"></div>
+                </div>
+
+                <p>
+                    <b>NoMED-AFProjesi</b><br/>
+                    <span>
+                        Erken tespitte invaziv olmayan izleme sessiz atriyal fibrilasyon (AF) algılama. 
+                        <br/>
+                        Amaç, 65 yaş üstü hastalarda erken evre sessiz Atriyal Fibrilasyonu (AF) saptamak için bir çözümdür. Proje,  bozukluğun sıklığı hakkında veri sağlamak ve yeni tedavi yöntemlerinin geliştirilmesi için temel oluşturacak.
+                        <br/><br/>
+                        Sessiz atriyal fibrilasyon (AF), serebral inme riskini beş kat artıran en sık görülen kalp hızı bozukluklarından biridir.  Araştırmalar AF yaşantı sıklığı ile yaş arasında sık görülen güçlü bir korelasyona işaret eder ve yaşlıların çoğu risk  altındadır.
+                    </span>
+                </p>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <b>EKG Yelek</b>
+                        <ul>
+                            <li>Sinyali 30 gün boyunca kaydetmek için gelişmiş bir çözüm</li>
+                            <li>Rahatlık (ışık, vücuda uyarlanmış)</li>
+                            <li>Biyouyumlu materyal</li>
+                            <li>Cildin tahriş olmasına neden olmayan, ancak çok kaliteli kayıtlar sunan özel tekstil elektroları</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <img src="{{ asset('img/icerik/saglik1.png') }}"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <b>NoMED-AF Sensör Yelek için Kayıt Cihazı</b>
+                        <ul>
+                            <li>Sensör Kayıt Cihazından Uzaktan Tıbbi Bakım Merkezine veri aktarım istasyonu</li>
+                            <li>İzleme Merkezi'nden (3G, WiFi veLAN) geniş iletişim seçenekleri</li>
+                            <li>Bakım gerektirmeyen</li>
+                            <li>24 Saatten uzun süren pil</li>
+                            <li>Küçük Boy, minimum ağırlı</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <img src="{{ asset('img/icerik/saglik2.png') }}"/>
+                    </div>
+                </div>
+
+                <p>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <b>Yaşam Bileziği</b><br/>
+                            <span>
+                                Hastalar arasında güvenlik hissini artırır ve onlara daha fazla bağımsızlık verir . Acil bir SOS düğmesi vardır, bu da hastaların Uzak Tıbbi Bakım Merkeziyle iletişime geçmesine ve yardım çağırmasına izin verir. Bilezik içine yerleştirilen sensör otomatik olarak bir düşüş tespit eder ve Uzaktan Tıbbi Bakım Merkezi'ne acil arama yapar . Dahili Yaşam Kartı sayesinde, tıbbi personel, kişisel ayrıntılar, yaş, kan grubu, alerji, teşhis edilen hastalıklar, öngörülen ilaçlar ve yakın akrabalık iletişim bilgileri gibi hastanın acil durum bilgilerini okuyabilir.
+                            </span>
+                        </div>
+                        <div class="col-sm">
+                            <img src="{{ asset('img/icerik/saglik3.png') }}"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <b>Cardio Dial</b><br/>
+                            <span>
+                                Kullanımı kolay taşınabilir dijital Holter olay izleme cihazı, EKG testlerinin rahatlıkla yapılmasına olanak tanır. Kaydedici, hastanın spesifik semptomlarını hissettiği anda doğrudan göğüs üzerine yerleştirilir. Sinyal kaydedilir ve Uzak Madikal Bakım Merkezi'ne iletilir. Sinyal kaydedilirken, mevcut kalp aktivitesini izlemek mümkündür. Cihaz 30 saniyelik EKG sinyallerini tek kablolu bir modda kaydeder.
+                            </span>
+                        </div>
+                        <div class="col-sm">
+                            <img src="{{ asset('img/icerik/saglik4.png') }}"/>
+                        </div>
+                    </div>
+
+                </p>
+
+                <p>
+                    <i>Akıllı Şehirleri, Akıllı ve Sağlıklı Şehirlere çevirecek olan çözümlerimiz.</i>
+                </p>
+
+                <p>
+                    <b>Analitik ve RaporlamaPlatformu</b><br/>
+                    <span>
+                        Bu çözüm nüfus sağlığı verileri analizi için bir araçtır. Toplanan  ve analiz edilen veriler sağlık bakımı ve önleme tedbirleri için  bilgi sağlar
+                    </span>
+                </p>
+
+                <p>
+                    <b>Sağlıklı Şehir Konseptinin Sundukları</b><br/>
+                    <ul>
+                        <li>Kapsamlı sağlık hizmetleri</li>
+                        <li>Hastalara Holistik yaklaşım</li>
+                        <li>Gelişmiş tıbbi analitik</li>
+                        <li>Tüm sosyal grupları kapsayan bakım</li>
+                        <li>Tıbbi verilere daha kolay erişim</li>
+                        <li>Sağlık hizmetlerinin delokalizasyonu</li>
+                    </ul>
+                </p>
             </div>
 
             <div data-name="yakittakip" class="tab">
-                Burası yakittakip hizmetler kısmı
+                <img src="{{ asset('img/icerik/enerjitakip1.png') }}"/>
+                <img src="{{ asset('img/icerik/enerjitakip2.png') }}"/>
+                <img src="{{ asset('img/icerik/enerjitakip3.png') }}"/>
+                <img src="{{ asset('img/icerik/enerjitakip4.png') }}"/>
             </div>
 
             <div data-name="havagurultu" class="tab">
-                Burası havagurultu hizmetler kısmı
+                <p>
+                    <b>Product-Plus-Service Akıllı Sehir</b> çözümü şehirlerin hava ve gürültü kirliligi ölçümü için gerekli çeşitli sensörler ile donatılmış olup; Partikül Madde (PM), gaz, ultraviyole (UV), gürültü ve iklim ölçümü yapabilmektedir.
+                </p>
+
+                <p>
+                    <b>Temel Faydalar</b><br/>
+                    <ul>
+                        <li>İhtiyacı olan enerjiyi güneşten alır</li>
+                        <li>Hızlı ve Kolay Entegrasyon</li>
+                        <li>Day onecloud connectivity</li>
+                        <li>End-to-end enterprise grade security</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <i>Tarihi Yarımada’da Hava/Gürültü Kirliliği Ölçümü</i>
+                    <img src="{{ asset('img/icerik/havagurultu1.png')}}"/>
+                </p>
+
+                <p>
+                    <b>Sonraki Adım</b><br/>
+                    <ul>
+                        <li>Veri Toplama ve Analizi</li>
+                        <li>Analiz ve raporlama sonucunda Belediye’nin alacağı aksiyonlara katkı sağlama</li>
+                        <li>Sağlıklı Şehir Planlaması</li>
+                        <li>Ulaşım–Yayalaştırma Projesi</li>
+                        <li>Isınma Yönteminin değiştirilmesi</li>
+                        <li>Isınma Yönteminin değiştirilmesi -Kömür->Doğal Gaz</li>
+                    </ul>
+                </p>
             </div>
             
             <div data-name="elektrik" class="tab">

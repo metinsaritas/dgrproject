@@ -646,6 +646,6 @@ header .play {
 }
 
 .tab[data-name=atikizleme] b, .tab[data-name=atiktoplama] b, .tab[data-name=aydinlatma] b,
-.tab[data-name=elektrik] b {
+.tab[data-name=elektrik] b, .tab[data-name=sulama] b, .tab[data-name=saglik] b, .tab[data-name=havagurultu] b  {
     color: #03a9f4;
 }
