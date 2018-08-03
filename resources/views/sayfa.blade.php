@@ -7,7 +7,7 @@
     <body id="page-top">
         @include("helper.navbar")
             @yield("icerik")
-        @include("helper.grupsirketleri")
+            
         @include("helper.footer")
     </body>
 </html>

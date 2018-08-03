@@ -151,7 +151,7 @@ section.info-area {
 }
 
 #about {
-    background-color: #ffedcd!important;
+    background-color: #f1f1f1 !important;
     color: #333 !important;
 }
 
@@ -649,3 +649,21 @@ header .play {
 .tab[data-name=elektrik] b, .tab[data-name=sulama] b, .tab[data-name=saglik] b, .tab[data-name=havagurultu] b  {
     color: #03a9f4;
 }
+
+.container .icyazi b {
+    color: #03a9f4;
+}
+
+footer ul.links li a{
+    color:#007bff !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer ul.links li:hover {
+    text-decoration: underline;
+}
+
+.container-area .tab b {
+    color:#007bff !important;
+} 

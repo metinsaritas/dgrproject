@@ -19,6 +19,7 @@
             <div class="col-sm"><a href="#vizyonmisyon" class="js-scroll-trigger">Vizyon&Misyon</a></div>
             <div class="col-sm"><a href="#hedefler" class="js-scroll-trigger">Hedefler</a></div>
             <div class="col-sm"><a href="#degerlerimiz" class="js-scroll-trigger">Değerlerimiz</a></div>
+            <div class="col-sm"><a href="#ceomesaj" class="js-scroll-trigger">Ceo Mesaj</a></div>
         </div>
     </div>
 </div>
@@ -51,7 +52,7 @@
 </div>
 </div>
 
-<section id="vizyonmisyon" class="bg-dark text-white info-area parallax" style="padding: 3rem; background-image:url({{ asset('img/page/vizyon.jpg')}})">
+<section id="vizyonmisyon" class="bg-dark text-white info-area parallax" style="background-attachment:unset; padding: 3rem; background-image:url({{ asset('img/page/vizyon.jpg')}})">
     <div class="container text-center">
             <h2 class="mb-4" style="
             font-family: Raleway;
@@ -73,7 +74,7 @@
     </div>
 </div>
 
-<section id="hedefler" class="bg-dark text-white info-area parallax" style="padding: 3rem; background-image:url({{ asset('img/page/hedef.jpg')}})">
+<section id="hedefler" class="bg-dark text-white info-area parallax" style="background-attachment:unset; padding: 3rem; background-image:url({{ asset('img/page/hedef.jpg')}})">
     <div class="container text-center">
             <h2 class="mb-4" style="
             font-family: Raleway;
@@ -91,7 +92,7 @@
 </div>
 
 
-<section id="degerlerimiz" class="bg-dark text-white info-area parallax" style="padding: 3rem; background-image:url({{ asset('img/page/degerler.jpg')}})">
+<section id="degerlerimiz" class="bg-dark text-white info-area parallax" style="background-attachment:unset; padding: 3rem; background-image:url({{ asset('img/page/degerler.jpg')}})">
     <div class="container text-center">
             <h2 class="mb-4" style="
             font-family: Raleway;
@@ -129,6 +130,45 @@
         <p>
             <b>Kazanımlarımız</b><br/>
             Uzun Süreli Dış Kaynak Eleman ihtiyaçları, BT Eğitimleri, BT ve Enerji verimliliği Kanıtlanmış Ulusal ve Uluslararası Projeler Uzun Süreli Ortaklıklar ve Partnerlikler
+        </p>
+    </div>
+</div>
+
+<section id="ceomesaj" class="bg-dark text-white info-area parallax" style="background-attachment:unset; padding: 3rem; background-image:url({{ asset('img/page/ceo.jpg')}})">
+    <div class="container text-center">
+            <h2 class="mb-4" style="
+            font-family: Raleway;
+            font-size: 50px;
+            text-shadow: 2px 3px 7px #333;"><b>CEO</b> Mesaj</h2>
+    </div>
+</section>
+
+<div class="container">
+    <div class="icyazi">
+        <p>
+            Ülkemizde son yıllarda siyasal, ekonomik, kültürel ve toplumsal açıdan pek çok gelişme ve atılım gerçekleştirildiğini görebiliyoruz. Hemen her alanda birçok değişimin yaşandığı Türkiye, dünyanın lider ülkeleri arasında yer alma hedefiyle yoluna emin adımlarla devam ediyor. Yakın geçmişte ekonomik krizlerle boğuşan ülkemizin, önüne koyduğu bu vizyon ve hedef dahilinde gösterdiği büyüme süreci, genç ve dinamik nüfusun da katkısıyla, yükselerek devam edecektir.
+        </p>
+        <p>    
+            Küçük bir Ofis olarak faaliyete başlayan DGR Project, bugün 3 kıtada faaliyet gösteren, sektörde dünyanın en büyük firmaları arasında yer alan bir konuma geldi. Elbette ki bu başarıya ulaşmak kolay iş değil. Asıl zor olan nokta ise; bu başarıyı daim kılmak.
+        </p>
+            
+        <p>
+            19 yıllık bir geçmişe sahip olan DGR Sirketler Grubu açısından ele aldığımızda; mevcut hedeflerimize paralel, yurt içi ve yurt dışında oldukça verimli ve başarılı bir yıl geçirdiğimizi söyleyebilirim. 2023 yılına kadar, yılında Dış Kaynak Eleman ihtiyaçları, BT Eğitimleri, BT ve Enerji verimliliği ve yazılım çözümleri pazarında Türkiye ve Bölge ülkeler lideri olma hedefimize doğru, sağlam adımlarla, kendimizden emin bir şekilde ilerlemeye devam etmekteyiz.
+        </p>
+            
+        <p>
+            Hedeflerimize doğru adım adım yürürken; değerlerimizden, ilkelerimizden ve prensiplerimizden de asla ödün vermeyeceğiz. İnsan odaklı, kalite öncelikli misyonumuz doğrultusunda; müşterilerimizle, çalışanlarımızla, paydaşlarımızla güçlü bir bağ kurmaya gayret gösteriyoruz.
+        </p>
+            
+        <p>
+            Çünkü şunu çok iyi biliyoruz ki, başarıya ulaşmanın asıl sırrı; bizi oluşturan, bizi bir arada tutan, bizi geliştiren, bizi büyüten tüm unsurların memnuniyetini ve gülümsemesini sağlamaktır.
+        </p>
+            
+        <p>
+            Başarılı ve yetenekli yönetim kadromuzla, donanımlı çalışanlarımızla, müşteri memnuniyeti odaklı hizmet anlayışımızla hedef kitlemize ulaşıp, DGR Project'in kurumsal değerini hep birlikte zirveye taşıyacağımıza inancım tam...
+        </p>
+        <p>
+            <h2 class="blockquote-footer" style="font-size:17px;">Bülent DOĞRU <cite title="Source Title">CEO</cite></h2>
         </p>
     </div>
 </div>

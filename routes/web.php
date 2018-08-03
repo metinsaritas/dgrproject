@@ -19,15 +19,15 @@ Route::get('/', function () {
 
 Route::get("/hizmetler/bilisim-sistemleri", function() {
     return view("hizmetler.bilisim");
-})->name("bilisim");
+})->name("link1");
 
-Route::get("/hizmetler/enerji-sistemleri", function() {
-    return view("hizmetler.enerji");
-})->name("enerji");
+Route::get("/hizmetler/dijital-donusum", function() {
+    return view("hizmetler.dijital");
+})->name("link2");
 
-Route::get("/hizmetler/otomasyon-sistemleri", function() {
-    return view("hizmetler.otomasyon");
-})->name("otomasyon");
+Route::get("/hizmetler/akilli-sehir-sistemleri", function() {
+    return view("hizmetler.akillisehir");
+})->name("link3");
 
 
 
@@ -43,3 +43,7 @@ Route::get("/hakkimizda", function() {
 Route::get("/ureticilerimiz", function() {
     return view("ureticilerimiz");
 })->name("ureticilerimiz");
+
+Route::get('/ureticilerdetay/{id}', function ($id) {
+    return view('ureticilerdetay')->with(["id"=> $id]);
+});

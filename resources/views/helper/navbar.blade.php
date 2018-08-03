@@ -26,9 +26,9 @@
                         <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{ asset('hizmetler/bilisim-sistemleri') }}">Bilişim Sistemleri</a>
-                        <a class="dropdown-item" href="{{ asset('hizmetler/enerji-sistemleri') }}">Enerji Sistemleri</a>
-                        <a class="dropdown-item" href="{{ asset('hizmetler/otomasyon-sistemleri') }}">Otomasyon Sistemleri</a>
+                        <a class="dropdown-item" href="{{ route('link1') }}">Bilişim Sistemleri</a>
+                        <a class="dropdown-item" href="{{ route('link2') }}">Dijital Dönüşüm</a>
+                        <a class="dropdown-item" href="{{ route('link3') }}">Akıllı Şehir Sistemleri</a>
                     </div>
             </li>
             <li class="nav-item">

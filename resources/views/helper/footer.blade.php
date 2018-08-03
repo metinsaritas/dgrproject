@@ -60,9 +60,19 @@
     <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
         <!-- Content -->
-        <h6 class="font-weight-bold">Bülent DOĞRU</h6>
+        <h6 class="font-weight-bold">Akıllı Şehir Bileşenleri</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Ülkemizde son yıllarda siyasal, ekonomik, kültürel ve toplumsal açıdan pek çok gelişme ve atılım gerçekleştirildiğini görebiliyoruz. Hemen her alanda birçok değişimin yaşandığı Türkiye, dünyanın lider ülkeleri arasında yer alma hedefiyle yolun...<span class="oku" data-toggle="modal" data-target="#ceoMesajModal"> Devamını oku</span></p>
+        
+        <ul style="list-style-type:none;padding:0;" class="links">
+        <li data-to="atikizleme"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#atikizleme')}}><i class="fa fa-external-link"></i> Akıllı Atık İzleme</a></li>
+            <li data-to="atiktoplama"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#atiktoplama')}}><i class="fa fa-external-link"></i> Akıllı Atık Toplama</a></li>
+            <li data-to="aydinlatma"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#aydinlatma')}}><i class="fa fa-external-link"></i> Akıllı Aydınlatma</a></li>
+            <li data-to="sulama"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#sulama')}}><i class="fa fa-external-link"></i> Akıllı Sulama</a></li>
+            <li data-to="tarim"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#tarim')}}><i class="fa fa-external-link"></i> Akıllı Tarım</a></li>
+            <li data-to="saglik"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#saglik')}}><i class="fa fa-external-link"></i> E-Sağlık</a></li>
+            <li data-to="yakittakip"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#yakittakip')}}><i class="fa fa-external-link"></i> Araç Yakıt Takip</a></li>
+            <li data-to="havagurultu"><a {{Request::is('hizmetler/akilli-sehir-sistemleri') ? '' : ('href='.route('link3').'#havagurultu')}}><i class="fa fa-external-link"></i> Hava Kirliliği ve Gürültü Takip</a></li>
+        </ul>
 
     </div>
     <!-- Grid column -->
@@ -130,37 +140,6 @@
 
 </footer>
 <!-- Footer -->
-
-<div class="modal fade" id="ceoMesajModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document" style="height: 90%; max-width: 960px">
-        <div class="modal-content" style="border:none;">
-            <div class="modal-header">
-            <h4 class="modal-title">Bülent DOĞRU</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body" style="font-family: Raleway;text-align: justify; font-weight:bold;">
-                <img src="{{ asset('img/ceo.jpg') }}" style="border-radius: 60px 0px 70px 0px; float: left; border: 10px solid #03a9f4; margin: 0px 10px 20px 0px;"/>
-            <p style="text-indent: 50px;">
-            Ülkemizde son yıllarda siyasal, ekonomik, kültürel ve toplumsal açıdan pek çok gelişme ve atılım gerçekleştirildiğini görebiliyoruz. Hemen her alanda birçok değişimin yaşandığı Türkiye, dünyanın lider ülkeleri arasında yer alma hedefiyle yoluna emin adımlarla devam ediyor. Yakın geçmişte ekonomik krizlerle boğuşan ülkemizin, önüne koyduğu bu vizyon ve hedef dahilinde gösterdiği büyüme süreci, genç ve dinamik nüfusun da katkısıyla, yükselerek devam edecektir.
-            </p>
-            <p>Küçük bir Ofis olarak faaliyete başlayan DGR Project, bugün 3 kıtada faaliyet gösteren, sektörde dünyanın en büyük firmaları arasında yer alan bir konuma geldi. Elbette ki bu başarıya ulaşmak kolay iş değil. Asıl zor olan nokta ise; bu başarıyı daim kılmak.
-            </p>        
-            <p>19 yıllık bir geçmişe sahip olan DGR Sirketler Grubu açısından ele aldığımızda; mevcut hedeflerimize paralel, yurt içi ve yurt dışında oldukça verimli ve başarılı bir yıl geçirdiğimizi söyleyebilirim. 2023 yılına kadar, yılında Dış Kaynak Eleman ihtiyaçları, BT Eğitimleri, BT ve Enerji verimliliği ve yazılım çözümleri pazarında Türkiye ve Bölge ülkeler lideri olma hedefimize doğru, sağlam adımlarla, kendimizden emin bir şekilde ilerlemeye devam etmekteyiz.
-            </p>       
-            <p>Hedeflerimize doğru adım adım yürürken; değerlerimizden, ilkelerimizden ve prensiplerimizden de asla ödün vermeyeceğiz. İnsan odaklı, kalite öncelikli misyonumuz doğrultusunda; müşterilerimizle, çalışanlarımızla, paydaşlarımızla güçlü bir bağ kurmaya gayret gösteriyoruz.
-            </p>        
-            <p>Çünkü şunu çok iyi biliyoruz ki, başarıya ulaşmanın asıl sırrı; bizi oluşturan, bizi bir arada tutan, bizi geliştiren, bizi büyüten tüm unsurların memnuniyetini ve gülümsemesini sağlamaktır.
-            </p>        
-            <p>Başarılı ve yetenekli yönetim kadromuzla, donanımlı çalışanlarımızla, müşteri memnuniyeti odaklı hizmet anlayışımızla hedef kitlemize ulaşıp, DGR Project'in kurumsal değerini hep birlikte zirveye taşıyacağımıza inancım tam...</p>
-            </p>
-            </div>
-            <div class="modal-footer">
-            <button type="button" style="text-transform: none;" class="btn btn-default" data-dismiss="modal">Kapat</button>
-            </div>    
-            
-        </div>
-    </div>
-</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>

@@ -14,7 +14,7 @@
     <div class="modal fade" id="youtubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document" style="height: 90%; max-width: 960px">
                 <div class="modal-content" style="height: 90%;overflow: hidden;border-radius: 20px;border:none;">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IvBfRWO1yXw?rel=0&fs=0&color=white&controls=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="100%" id="youtubeIframe" height="100%" src="https://www.youtube.com/embed/IvBfRWO1yXw?rel=0&fs=0&color=white&controls=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     
                 </div>
             </div>
@@ -31,10 +31,10 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1366px;height:768px;overflow:hidden;">
             <div>
-                <img data-u="image" src="img/splash2.png" />
+                <img data-u="image" src="img/slider/slider1.jpg" />
                 <div data-ts="flat" data-p="150" style="position:absolute;top:184px;left:283px;width:800px;height:400px;overflow:hidden;">
                     <div data-u="caption" data-t="0" style="position:absolute;top:54px;left:155px;width:487px;height:28px;font-size:23px;font-weight:500;color:#ffffff;line-height:1;letter-spacing:0.05em;text-align:center;">
-                        <div>En doğru seçim</div>
+                        <div style="text-decoration: underline;">En doğru seçim</div>
                     </div>
                     <div data-u="caption" data-t="2" style="position:absolute;top:97px;left:71px;width:658px;height:92px;font-size:73px;font-weight:900;color:#ffffff;line-height:1.1;letter-spacing:0.05em;text-align:center;">
                         <div style="text-shadow: 0px 0px 70px #333;">DGR Project</div>
@@ -64,11 +64,27 @@
             </div>
 
             <div>
-                <img data-u="image" src="img/splash1.png" />
+                <img data-u="image" src="img/slider/slider2.jpg" />
             </div>
 
             <div>
-                <img data-u="image" src="img/splash3.png" />
+                <img data-u="image" src="img/slider/slider3.jpg" />
+            </div>
+
+            <div>
+                <img data-u="image" src="img/slider/slider4.jpg" />
+            </div>
+
+            <div>
+                <img data-u="image" src="img/slider/slider5.jpg" />
+            </div>
+
+            <div>
+                <img data-u="image" src="img/slider/slider6.jpg" />
+            </div>
+
+            <div>
+                <img data-u="image" src="img/slider/slider7.jpg" />
             </div>
         </div>
         <!-- Bullet Navigator -->
@@ -110,7 +126,7 @@
 
     <!--<header class="masthead text-center text-white d-flex">-->
 
-    @include("helper.grupsirketleri")
+    
 
     <section id="about">
         <div class="container">
@@ -152,7 +168,7 @@
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons" style="color: #03a9f4 !important;"></i>
-            <h3 class="mb-3"><a href="{{ route("bilisim") }}" style="color:#03a9f4;">Bilişim Sistemleri</a></h3>
+            <h3 class="mb-3"><a href="{{ route("link1") }}" style="color:#03a9f4;">Bilişim Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;border-color: #03a9f4;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
@@ -165,15 +181,13 @@
             </div>
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-                <i class="fa fa-4x fa-bolt text-primary mb-3 sr-icons"></i>
-                <h3 class="mb-3"><a href="{{ route("enerji") }}" style="color:orange;">Enerji Sistemleri</a></h3>
+                <i class="fa fa-4x fa-exchange text-primary mb-3 sr-icons"></i>
+                <h3 class="mb-3"><a href="{{ route("link2") }}" style="color:orange;">Dijital Dönüşüm</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p class="text-muted mb-0">
                     <ul class="liste">
-                        <li>Enerji miktarının, teknolojik uygulamalar veya teknik olmayan (daha iyi organizasyon ve yönetim, davranış değişiklikleri gibi) önlemlerle azaltıyor ekonomiye katkı sağlıyoruz. </li>
-                        <li>Dünyanın en gelişmiş birleşik ısı ve güç üretim teknolojisi olan Kojenerasyon, ısı ve elektriğin birlikte üretilebilmesi sayesinde yüksek verimi ve CO2 salınımını azaltmasıyla bir temiz enerji teknolojisidir.</li>
-                        <li>Firmaların yüksek atık problemlerini emisyon ve atık olmadan etkili ucuz bir şekilde çözmektedir.</li>
-                        <li>Yaptığınız gibi atıkları toplayın. Tek akış! Neden? Çünkü ürünlerin çoğu hidrokarbon bazlıdır.</li>
+                        <li>Dijital dönüşümü birkaç teknolojiye indirgemek mümkün değildir ancak web 2.0, mobil, genişbant internet, bulut bilişim, dijital medya, büyük veri, yapay zeka, artırılmış gerçeklik, nesnelerin interneti ve 3B yazıcıların çığır açan etkisi yeni bir dönem başlatmıştır.</li>
+                        <li>Dijital teknolojiler ile ilk olarak anolog kayıtlar dijital ortamda işlenir hale getirilmiş (otomasyon) ve süreçler dijital ortama aktarılmıştır (e-hizmet). Gelinen noktada ise tüm kurumsal varlıklar ve paydaş ilişkileri dijital ortamda yeniden tanımlanmaktadır (dijital dönüşüm). Dijitalleşme süreci tek yönlü olmayıp, organizasyonlar yeni teknolojiler ile her zaman otomasyonlarını daha verimli kılabilmekte ve hizmetlerindeki dijital teknoloji deneyimini iyileştirebilmektedir. </li>
                     </ul>
                 </p>
             </div>
@@ -181,7 +195,7 @@
             <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
                 <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons" style="color: red !important;"></i>
-                <h3 class="mb-3"><a href="{{ route("otomasyon") }}" style="color:red;">Otomasyon Sistemleri</a></h3>
+                <h3 class="mb-3"><a href="{{ route("link3") }}" style="color:red;">Akıllı Şehir Sistemleri</a></h3>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; border-color:red;">
                 <p class="text-muted mb-0">
                     <ul class="liste">

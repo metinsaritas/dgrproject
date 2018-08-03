@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
             var jssor_1_options = {
-              $AutoPlay: 0,
+              $AutoPlay: 1,
               $Idle: 4000,
               $SlideEasing: $Jease$.$InOutSine,
               $DragOrientation: 0,
@@ -59,4 +59,10 @@ jQuery(document).ready(function ($) {
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", OnOrientationChange);
+
+            $("#youtubeModal").on("hidden.bs.modal", function() {
+                let src = $("#youtubeIframe").attr("src");
+                $("#youtubeIframe").attr("src","");
+                $("#youtubeIframe").attr("src", src);
+            });
         });
