@@ -413,7 +413,7 @@
             hash = hash.slice(1);
             $("[data-to="+hash+"]").click();
             if ("history" in window) {
-                history.pushState("", document.title, 
+                history.replaceState("", document.title, 
                     window.location.pathname + window.location.search);
             }
         }

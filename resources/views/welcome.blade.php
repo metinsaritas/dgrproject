@@ -64,27 +64,23 @@
             </div>
 
             <div>
-                <img data-u="image" src="img/slider/slider2.jpg" />
+                <a href="{{ route("link3") }}" title="Akıllı Şehir Sistemleri"><img data-u="image" src="img/slider/slider2.jpg" /></a>
             </div>
 
             <div>
-                <img data-u="image" src="img/slider/slider3.jpg" />
+                <a href="{{ route("link3")."#tarim" }}" title="Akıllı Tarım"><img data-u="image" src="img/slider/slider3.jpg" /></a>
             </div>
 
             <div>
-                <img data-u="image" src="img/slider/slider4.jpg" />
+                <a href="{{ route("link3")."#atiktoplama" }}" title="Akıllı Atık Toplama"><img data-u="image" src="img/slider/slider4.jpg" /></a>
             </div>
 
             <div>
-                <img data-u="image" src="img/slider/slider5.jpg" />
+                <a href="{{ route("link3")."#saglik" }}" title="E-Sağlık"><img data-u="image" src="img/slider/slider6.jpg" /></a>
             </div>
 
             <div>
-                <img data-u="image" src="img/slider/slider6.jpg" />
-            </div>
-
-            <div>
-                <img data-u="image" src="img/slider/slider7.jpg" />
+                <a href="{{ route("link3")."#yakittakip" }}" title="Araç Yakıt Takip"><img data-u="image" src="img/slider/slider7.jpg" /></a>
             </div>
         </div>
         <!-- Bullet Navigator -->
