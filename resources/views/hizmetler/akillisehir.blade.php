@@ -23,7 +23,7 @@
                 </div>
                 
                 <div data-to="atiktoplama" class="col-sm list" style="background-image:url(../img/hizmetler/track.png)">
-                    <span>Akıllı Atık Toplama Sistemleri</span>
+                    <span>Akıllı Ambalaj Atığı Toplama Sistemleri</span>
                     <div class="arrow"></div>
                 </div>
 
@@ -99,9 +99,12 @@
             </div>
 
             <div data-name="atiktoplama" class="tab">
+
                 <p>
                     <b>Akıllı İçecek Ambalaj Geri Dönüşüm Otomatı</b><br/>
                     <span>Geri Dönüşüm Otomatı yada diğer Adıyla Ters Satış Otomatı</span>
+
+                <img src="{{asset('/img/icerik/akilliambalaj1.png')}}"
 
                 <ul>
                     <li>Tomra geri dönüşüm otomatları cam, PET ve alüminyum atıkları haznesinde toplayabilir</li>

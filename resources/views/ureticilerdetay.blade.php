@@ -12,7 +12,13 @@
 
 @section("icerik")
 <section class="content" style="padding: 2rem 0px;">
-Merhaba id: {{ $id }}
+<div class="container detay" style="font-family: Raleway">
+@if (is_numeric("$id") && View::exists("detail.$id")) 
+    @include("detail.$id")
+@else
+    <script>window.location = '../';</script>
+@endif
+</div>
 </section>
 
 @endsection

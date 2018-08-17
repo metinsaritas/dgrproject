@@ -667,3 +667,20 @@ footer ul.links li:hover {
 .container-area .tab b {
     color:#007bff !important;
 } 
+
+.detay .hr {
+    border-color: #007bff !important;
+}
+
+.detay .hr span {
+    color: #007bff !important;
+}
+
+.detay .hr .triangle {
+    border-top: 10px solid #007bff !important;
+}
+
+
+.detay b {
+    color:#007bff !important;
+}

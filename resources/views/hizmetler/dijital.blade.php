@@ -19,20 +19,20 @@
         <div class="container">
             <div class="row hizmet-menu">
                 <div data-to="kojenerasyon" class="col-sm list active" style="background-image:url(../img/hizmetler/tub.png)">
-                    <span>Örnek Yazı 1</span>
+                    <span>Kojenerasyon</span>
                     <div class="arrow"></div>
                 </div>
                 
                 <div data-to="solar" class="col-sm list" style="background-image:url(../img/hizmetler/sun.png)">
-                    <span>Örnek Yazı 2</span>
+                    <span>Solar Enerji</span>
                     <div class="arrow"></div>
                 </div>
                 <div data-to="ruzgar" class="col-sm list" style="background-image:url(../img/hizmetler/turbine.png)">
-                    <span>Örnek Yazı 3</span>
+                    <span>Rüzgar Enerjisi</span>
                     <div class="arrow"></div>
                 </div>
                 <div data-to="karbon" class="col-sm list" style="background-image:url(../img/hizmetler/c.png)">
-                    <span>Örnek Yazı 4</span>
+                    <span>Carbon</span>
                     <div class="arrow"></div>
                 </div>
 

@@ -20,7 +20,7 @@
 
     <div class="logo-holder" style="text-align: center;">
         <div class="uretici-logo-holder" v-for="x in ureticiler.bilisim">
-            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/bilisim/'+x.image+')'}"></div></a>
+            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/'+x.image+')'}"></div></a>
         </div>
     </div>
 </div>
@@ -33,7 +33,7 @@
 
     <div class="logo-holder" style="text-align: center;">
         <div class="uretici-logo-holder" v-for="x in ureticiler.enerji">
-            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/enerji/'+x.image+')'}"></div></a>
+            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/'+x.image+')'}"></div></a>
         </div>
     </div>
 </div>
@@ -47,7 +47,7 @@
     <div class="logo-holder" style="text-align: center;">
 
         <div class="uretici-logo-holder" v-for="x in ureticiler.otomasyon">
-            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/otomasyon/'+x.image+')'}"></div></a>
+            <a :href="'/ureticilerdetay/'+x.id"><div class="uretici-logo" :style="{backgroundImage: 'url(img/ureticiler/'+x.image+')'}"></div></a>
         </div>
 
     </div>

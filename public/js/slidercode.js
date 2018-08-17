@@ -2,6 +2,7 @@ jQuery(document).ready(function ($) {
 
             var jssor_1_options = {
               $AutoPlay: 1,
+			  $PauseOnHover: 0,
               $Idle: 4000,
               $SlideEasing: $Jease$.$InOutSine,
               $DragOrientation: 0,
